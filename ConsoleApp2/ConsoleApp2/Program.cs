@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+namespace ConsoleApp2
+{
+class Program
+    {
 
 static double line1(double x)
 {
@@ -33,6 +37,8 @@ static double line4(double x)
     return y;
 }
 
+static void Main()
+{ 
 for (double x = -7; x <= 9; x += 0.2)
 {
     if (x < -9)
@@ -64,3 +70,7 @@ for (double x = -7; x <= 9; x += 0.2)
         Console.WriteLine("y({0:0.00}) = {1:0.00}", x, line1(x));
     }
 }
+}
+        }
+    }
+
