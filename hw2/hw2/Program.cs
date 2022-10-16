@@ -38,7 +38,7 @@ namespace hw2
 
         static void Main()
         {
-            for (double x = -7; x <= 9; x += 0.2)
+            for (double x = -9; x <= 9; x += 0.2)
             {
                 if (x < -9)
                 {
